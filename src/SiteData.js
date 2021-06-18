@@ -3,7 +3,7 @@ export default function getSiteData() {
     skillAreas: [
       {
         name: 'Front End Web Development',
-        keyWords: ['JavaScript', 'Angular', 'React']
+        keywords: ['JavaScript', 'Angular', 'React']
       },
       {
         name: 'Back End Web Development',
