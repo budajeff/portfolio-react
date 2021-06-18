@@ -17,7 +17,8 @@ export default function SkillsPage() {
             {SiteData().skillAreas.map(skill =>
                 <Card
                     title={skill.name}
-                    details={skill.keywords}
+                    subtitle={skill.subtitle}
+                    details={skill.details}
                 ></Card>)}
         </section>
     );

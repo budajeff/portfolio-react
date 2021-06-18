@@ -3,7 +3,13 @@ export default function getSiteData() {
     skillAreas: [
       {
         name: 'Front End Web Development',
-        keywords: ['JavaScript', 'Angular', 'React']
+        keywords: ['JavaScript', 'Angular', 'React'],
+        subtitle: 'I really enjoy working on the front end!',
+        details: [
+          'I have worked with Angular (and AngularJS) for several years at Thomson Reuters, but I prefer ReactJS which I teach at Thinkful.',
+          'I prefer open-source components from libraries like BootstrapJS over custom component coding.',
+          "Visual Studio Code is my favorite code editor even though I've with Visual Studio longer."
+        ]
       },
       {
         name: 'Back End Web Development',
