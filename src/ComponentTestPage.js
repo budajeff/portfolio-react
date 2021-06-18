@@ -1,4 +1,5 @@
 import Card from "./Card";
+import "./ComponentTestPage.css";
 
 export default function ComponentTestPage() {
     return (

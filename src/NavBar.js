@@ -5,6 +5,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import './NavBar.css';
 import SkillsPage from "./SkillsPage";
 import HomePage from "./HomePage";
 import ExperiencePage from "./ExperiencePage";
