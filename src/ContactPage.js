@@ -1,5 +1,6 @@
 import Card from './Card';
 import SiteData from './SiteData';
+import ContactForm from './ContactForm';
 
 export default function ContactPage() {
 
@@ -13,6 +14,10 @@ export default function ContactPage() {
             </li>
             <li>
                 LinkedIn Messaging also <a href={siteData.contactInfo.linkedInUri}>works.</a>
+            </li>
+            <li>
+                I prefer email or LinkedIn but you're welcome to contact me via this form which I'm using as a coding sample for potential employers.
+                <ContactForm></ContactForm>
             </li>
         </ul>
     );

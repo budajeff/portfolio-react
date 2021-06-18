@@ -1,7 +1,38 @@
+
+/* mobile first */
+.nav-parent{
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+}
+.nav-content {
+    margin-top: 90px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
 ul {
     list-style-type: none;
 }
+.nav-list {
+    margin-top: 0;
+    display: flex;
+    background-color: lightslategray;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-width:370px;
+}
 .nav-list li{
-    margin: 20px;
-    display: inline;
+    margin: 10px;
+}
+.nav-list li a{
+    color: linen;
+}
+
+/* tablet/large screen */
+.nav-list {
+    max-width: none;
 }
