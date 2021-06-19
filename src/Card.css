@@ -1,12 +1,14 @@
 /* mobile first */
 
 .card {
-    border-style: solid;
+    border-style: none;
     border-color: lightslategray;
     border-width: 2px;
-    box-shadow: 10px 10px 1px 1px lightgray;
+    /* box-shadow: 10px 10px 1px 1px lightgray; */
     margin: 20px;
+    padding: 10px;
     min-width: 290px;
+    background-color: #98c1d9;
 }
 .card-img {
     margin: 10px;
@@ -19,6 +21,9 @@
   display: flex;
   flex-direction: column;  
   justify-content: space-between;
+}
+.text-section {
+  padding: 25px;
 }
 
 /* tablet */

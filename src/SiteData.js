@@ -150,7 +150,21 @@ export default function getSiteData() {
         details: [
           'This was my first full-time job as a software developer. I worked on an app that would allow users to view drawings from SolidWorks and other 3D and 2D drawing apps.',
         ]
+      },
+      {
+        title: 'Aspiring Programmer',
+        team: null,
+        employer: null,
+        location: 'Lansing, Michigan',
+        startDate: '1990-01-01',
+        endDate: '1996-01-01',
+        keywords: ['Pascal', 'BASIC'],
+        details: [
+          'I do recall typing some BASIC programs into our VIC 20 but I really fell in love with programming when I taught myself Turbo Pascal from Tom Swan\'s Mastering Turbo PASCAL 5.5 book that my dad bought me for Christmas.',
+          'I\'ve been hooked ever since.'
+        ]
       }
+
     ]
   };
 }

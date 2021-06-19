@@ -1,6 +1,6 @@
 import './Card.css';
 import dbeaver from "./images/dbeaver.png";
-
+import pascal from './images/turbo-pascal.jpg';
 
 export default function Card(
     { title = 'Example Card Title',
