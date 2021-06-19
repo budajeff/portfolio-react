@@ -1,5 +1,6 @@
 export default function getSiteData() {
   return {
+
     skillAreas: [
       {
         name: 'Front End Web Development',
@@ -61,7 +62,7 @@ export default function getSiteData() {
     contactInfo: {
       email: 'budajeff@gmail.com',
       linkedInUri: '',
-      
+
     }
   };
 }
