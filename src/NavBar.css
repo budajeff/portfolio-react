@@ -19,17 +19,18 @@ ul {
 .nav-list {
     margin-top: 0;
     display: flex;
-    background-color: lightslategray;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     min-width:370px;
+    background-color: #98c1d9;
 }
 .nav-list li{
     margin: 10px;
 }
 .nav-list li a{
-    color: linen;
+    text-decoration: none;
+    color: #293241
 }
 
 /* tablet/large screen */

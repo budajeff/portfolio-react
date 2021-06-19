@@ -11,6 +11,7 @@ import HomePage from "./HomePage";
 import ExperiencePage from "./ExperiencePage";
 import ComponentTestPage from "./ComponentTestPage";
 import ContactPage from "./ContactPage";
+import { LightThemeStyle } from "./SharedStyles";
 
 export default function NavBar() {
     return (
