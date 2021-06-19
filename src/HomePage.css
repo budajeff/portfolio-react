@@ -4,3 +4,10 @@
     background-color: #E0FBFC;
     color: linen;
 }
+
+.name {
+    font-size: 10em;
+}
+.subtitle{
+    font-size: 2em;
+}

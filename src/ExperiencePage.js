@@ -10,6 +10,7 @@ export default function ExperiencePage() {
                     title={job.title}
                     subtitle={job.team}
                     details={job.details}
+                    imageKey={job.image}
                 >
                 </Card>
             )}

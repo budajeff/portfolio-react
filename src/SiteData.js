@@ -61,7 +61,7 @@ export default function getSiteData() {
     ],
     contactInfo: {
       email: 'budajeff@gmail.com',
-      linkedInUri: '',
+      linkedInUri: 'https://www.linkedin.com/in/jeff-buda-78901498/',
     },
     experience: [
       {
@@ -113,7 +113,8 @@ export default function getSiteData() {
         details: [
           'On this team I helped migrate the popular Practice CS Windows software to the web. We used Oracle as the database, ASP .Net Web API to serve our REST API.',
           'The front was written in TypeScript, leveraging both AngularJS and BootstrapJS.'
-        ]
+        ],
+        image: 'onvioPractice'
       },
       {
         title: 'Senior Software Developer',
@@ -137,7 +138,8 @@ export default function getSiteData() {
         keywords: ['Visual C++', 'MFC'],
         details: [
           'Creative Solutions offered a full suite of Windows accounting software. While working on their Payroll Solution team I wrote tax calculations for their State Unemployment Tax Forms feature.',
-        ]
+        ],
+        image: 'csa'
       },
       {
         title: 'Programmer',
@@ -149,7 +151,8 @@ export default function getSiteData() {
         keywords: ['Visual C++', 'MFC'],
         details: [
           'This was my first full-time job as a software developer. I worked on an app that would allow users to view drawings from SolidWorks and other 3D and 2D drawing apps.',
-        ]
+        ],
+        image: 'softech'
       },
       {
         title: 'Aspiring Programmer',
@@ -160,9 +163,10 @@ export default function getSiteData() {
         endDate: '1996-01-01',
         keywords: ['Pascal', 'BASIC'],
         details: [
-          'I do recall typing some BASIC programs into our VIC 20 but I really fell in love with programming when I taught myself Turbo Pascal from Tom Swan\'s Mastering Turbo PASCAL 5.5 book that my dad bought me for Christmas.',
+          'I do recall typing some BASIC programs into our VIC 20 but I really fell in love with programming when I taught myself Turbo Pascal from Tom Swan\'s Mastering Turbo PASCAL 5.5, a book that my dad bought me for Christmas.',
           'I\'ve been hooked ever since.'
-        ]
+        ],
+        image: 'pascal'
       }
 
     ]

@@ -1,10 +1,9 @@
 import './Card.css';
-import dbeaver from "./images/dbeaver.png";
-import pascal from './images/turbo-pascal.jpg';
+import Images from './images/Images';
 
 export default function Card(
     { title = 'Example Card Title',
-        imageHref = './images/dbeaver.png',
+        imageKey = 'dbeaver',
         subtitle = 'Sub-title',
         details = ['detail 1', 'detail 2'],
         children }) {
@@ -12,7 +11,7 @@ export default function Card(
     const standardContent = (
         <div className='card-flex'>
             <section className='image-section'>
-                <img className='card-img' src={dbeaver}></img>
+                <img className='card-img' src={Images[imageKey]?.image} alt={Images[imageKey]?.atlText}></img>
             </section>
             <section className='text-section'>
                 <div className='card-text'>
