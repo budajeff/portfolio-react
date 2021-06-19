@@ -62,7 +62,95 @@ export default function getSiteData() {
     contactInfo: {
       email: 'budajeff@gmail.com',
       linkedInUri: '',
-
-    }
+    },
+    experience: [
+      {
+        title: 'Senior Full Stack Web Developer',
+        team: 'Onvio Document Management Team',
+        employer: 'Thomson Reuters',
+        location: 'Ann Arbor, Michigan',
+        startDate: '2019-01-01',
+        endDate: 'present',
+        keywords: ['TypeScript', 'Angular', 'BootstrapJS', 'REST API', 'C#', 'Postgres', 'DataDog', 'WinDbg', 'PerfView'],
+        details: [
+          'On the Onvio Documents team I implement various product features in ASP.Net Web API, Angular, and AngularJS.',
+          'Recently I\'ve been improving backend server performance via DataDog and WinDbg.'
+        ]
+      },
+      {
+        title: 'Web Dev Technical Expert',
+        team: 'Student Mentor, Grader, Training Support',
+        employer: 'Thinkful / Chegg',
+        location: 'Remote',
+        startDate: '2019-11-01',
+        endDate: 'present',
+        keywords: ['React', 'ExpessJS', 'NodeJS', 'Postgres', 'JavaScript'],
+        details: [
+          'Mentor adult students who are learning the PERN stack (Postgres, Express, React, and Node)',
+        ]
+      },
+      {
+        title: 'Senior Full Stack Web Developer',
+        team: 'Digital Spearhead Team',
+        employer: 'Thomson Reuters',
+        location: 'Ann Arbor, Michigan',
+        startDate: '2018-01-01',
+        endDate: '2018-12-01',
+        keywords: ['JavaScript', 'Angular', 'BootstrapJS', '.Net Core', 'REST API', 'C#', 'Postgres', 'AWS Lambda'],
+        details: [
+          'The Digital Spearhead team was operated as a semi-independent startup with the Thomson Reuters corporation. In a fast-paced, MVP environment we were tasked with quickly implementing several high-impact projects.',
+          'On this team I got to explore AWS first-hand. I was able to write an AWS Lambda and deploy an small internal web site.'
+        ]
+      },
+      {
+        title: 'Senior Full Stack Web Developer',
+        team: 'Onvio Practice Team',
+        employer: 'Thomson Reuters',
+        location: 'Dexter, Michigan',
+        startDate: '2014-08-01',
+        endDate: '2018-01-01',
+        keywords: ['AngularJS', 'BootstrapJS', 'ASP .Net Web API', 'REST', 'C#', '.Net Framework', 'Postgres', 'Oracle', 'SQLite'],
+        details: [
+          'On this team I helped migrate the popular Practice CS Windows software to the web. We used Oracle as the database, ASP .Net Web API to serve our REST API.',
+          'The front was written in TypeScript, leveraging both AngularJS and BootstrapJS.'
+        ]
+      },
+      {
+        title: 'Senior Software Developer',
+        team: 'Practice CS Team',
+        employer: 'Creative Solutions',
+        location: 'Dexter, Michigan',
+        startDate: '2004-10-01',
+        endDate: '2014-08-01',
+        keywords: ['C#', '.Net Framework', 'COM', 'MS SQL Server', 'Windows Installer API'],
+        details: [
+          'Creative Solutions was an early adopter of the .Net Framework and chose to rewrite their practice management software in C#. This was my first experience with C# and it is still my favorite programming language.',
+        ]
+      },
+      {
+        title: 'Software Developer',
+        team: 'Payroll Solution Team',
+        employer: 'Creative Solutions',
+        location: 'Dexter, Michigan',
+        startDate: '2001-08-15',
+        endDate: '2004-10-01',
+        keywords: ['Visual C++', 'MFC'],
+        details: [
+          'Creative Solutions offered a full suite of Windows accounting software. While working on their Payroll Solution team I wrote tax calculations for their State Unemployment Tax Forms feature.',
+        ]
+      },
+      {
+        title: 'Programmer',
+        team: undefined,
+        employer: 'SofTech',
+        location: 'Bloomfield Hills, Michigan',
+        startDate: '2000-08-01',
+        endDate: '2001-08-01',
+        keywords: ['Visual C++', 'MFC'],
+        details: [
+          'This was my first full-time job as a software developer. I worked on an app that would allow users to view drawings from SolidWorks and other 3D and 2D drawing apps.',
+        ]
+      }
+    ]
   };
 }
