@@ -3,13 +3,24 @@ export default function getSiteData() {
 
     skillAreas: [
       {
+        name: 'Collaborating with People',
+        title: null,
+        subtitle: null,
+        details: [
+          "I really enjoy working with positive and motivated people. I prefer to collaborate with a team over building software as an individual because that method produces better results in less time.",
+          "I enjoy contributing to agile grooming and estimating meetings. I am very empathetic to the end user and want them to have a great experience using the software I write.",
+          "As a mentor at Thinkful/Chegg I really enjoy working with students one-on-one, keeping them motivated, and sharing my knowledge."
+        ]
+      },
+      {
         name: 'Front End Web Development',
         keywords: ['JavaScript', 'Angular', 'React'],
         subtitle: 'I really enjoy working on the front end!',
         details: [
           'I have worked with Angular (and AngularJS) for several years at Thomson Reuters, but I prefer ReactJS which I teach at Thinkful/Chegg.',
           'I prefer using components from open-source libraries like BootstrapJS over custom component coding.',
-          "Visual Studio Code is my favorite code editor even though I've with Visual Studio longer."
+
+          "Visual Studio Code is my favorite code editor and IDE even though I've with Visual Studio longer."
         ]
       },
       {
@@ -26,17 +37,14 @@ export default function getSiteData() {
         name: 'Database Development',
         keywords: ['Postgres', 'MS SQL Server', 'Oracle'],
         title: "In the past I've spent a lot of time in relational databases.",
-        subTitle: undefined,
+        subtitle: null,
         details: [
-          "I can define relational database schema.",
-          "I have tuned queries for performance using A, B, C",
-          "I haven't had to use much SQL recently but I could ramp up as necessary."
+          "I used to spend a lot time in the database layer working with relational databases. Some of the accounting products I've worked on have very normalized databases that require a fair amount of SQL skill to extract data. ",
+          "I haven't had to write complex SQL queries recently but I could ramp up quickly if necessary.",
+          "I have a fair amount of experience analyzing SQL query costs using MS SQL Server and to a lesser extent, Postgres.",
+          "These days I prefer to denormalize and store data in the shape that it will be read to optimize read performance at the expense of relational database correctness, but I'm flexible on that point."
         ],
       },
-      {
-        name: 'Collaborating with People',
-        title: "I prefer to collaborate with a team over building software as an individual because that method produces better results in less time."
-      }
     ],
     jobData: [
       {

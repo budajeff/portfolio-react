@@ -3,16 +3,18 @@ import Images from './images/Images';
 
 export default function Card(
     { title = 'Example Card Title',
-        imageKey = 'dbeaver',
+        imageKey = undefined,
         subtitle = 'Sub-title',
         details = ['detail 1', 'detail 2'],
         children }) {
 
     const standardContent = (
         <div className='card-flex'>
+            {(imageKey ?
             <section className='image-section'>
                 <img className='card-img' src={Images[imageKey]?.image} alt={Images[imageKey]?.atlText}></img>
-            </section>
+            </section> : null
+            )}
             <section className='text-section'>
                 <div className='card-text'>
                     <h4>{subtitle}</h4>
