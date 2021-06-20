@@ -69,6 +69,7 @@ export default function getSiteData() {
     ],
     contactInfo: {
       email: 'budajeff@gmail.com',
+      gitHub: 'https://github.com/budajeff',
       linkedInUri: 'https://www.linkedin.com/in/jeff-buda-78901498/',
     },
     experience: [
@@ -177,6 +178,19 @@ export default function getSiteData() {
         image: 'pascal'
       }
 
+    ],
+    about: [
+      {
+        name: 'About This Site',
+        title: null,
+        subtitle: '(It\'s a coding sample).',
+        details: [
+          'This site demonstrates my knowledge of basic ReactJS and mobile-first CSS concepts.',
+          'I chose not to use a component or layout library so that I could demonstrate the above technologies.',
+          'It also demonstrates that I\'m not a UX designer, but I do enjoy working with those talented people :-).',
+          '<div>The source code for this site is available at <a href="https://github.com/budajeff/portfolio-react" target="_blank" rel="noreferrer">GitHub</a>.</div>'],
+        image: 'reactVsCode'
+        }
     ]
   };
 }

@@ -1,5 +1,13 @@
-# Getting Started with Create React App
+# Jeff Buda's Portfolio Site
 
+
+This site demonstrates my knowledge of basic ReactJS and mobile-first CSS concepts.
+
+I chose not to use a component or layout library so that I could demonstrate the above technologies.
+
+It also demonstrates that I'm not a UX designer, but I do enjoy working with those talented people :-).
+
+The source code for this site is available at GitHub.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
