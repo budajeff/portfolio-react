@@ -53,6 +53,7 @@ export default function ContactForm() {
                     <input
                         id="emailAddress"
                         name="emailAddress"
+                        type="email"
                         required="true"
                         value={formData.emailAddress}
                         onChange={handleFormChange}
