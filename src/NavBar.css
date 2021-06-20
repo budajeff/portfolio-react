@@ -25,7 +25,6 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    min-width:370px;
     background-color: #3d5a80;
 }
 .nav-list li{

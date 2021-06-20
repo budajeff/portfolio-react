@@ -36,16 +36,16 @@ export default function ContactForm() {
         <div className="contact-form-container">
             <form id="contact-form" onSubmit={handleSubmit} action="https://formspree.io/f/mdoyzyjl" method="POST">
                 <div className="input-labels">
-                    <label labelFor="name">Name</label>
-                    <label labelFor="emailAddress">Email Address</label>
-                    <label labelFor="comments">Comments</label>
+                    <label htmlFor="name">Name</label>
+                    <label htmlFor="emailAddress">Email Address</label>
+                    <label htmlFor="comments">Comments</label>
                 </div>
 
                 <div className="input-fields">
                     <input
                         id="name"
                         name="name"
-                        required="true"
+                        required
                         value={formData.name}
                         onChange={handleFormChange}
                     ></input>
@@ -54,7 +54,7 @@ export default function ContactForm() {
                         id="emailAddress"
                         name="emailAddress"
                         type="email"
-                        required="true"
+                        required
                         value={formData.emailAddress}
                         onChange={handleFormChange}
                     ></input>
@@ -62,7 +62,7 @@ export default function ContactForm() {
                     <textarea
                         id="comments"
                         name="comments"
-                        required="true"
+                        required
                         value={formData.comments}
                         onChange={handleFormChange}
                     ></textarea>

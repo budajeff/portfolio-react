@@ -151,7 +151,7 @@ export default function getSiteData() {
       },
       {
         title: 'Programmer',
-        team: undefined,
+        team: null,
         employer: 'SofTech',
         location: 'Bloomfield Hills, Michigan',
         startDate: '2000-08-01',

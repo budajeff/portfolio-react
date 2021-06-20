@@ -18,7 +18,7 @@ export default function Card(
             <section className='text-section'>
                 <div className='card-text'>
                     <h4>{subtitle}</h4>
-                    {details.map(detail => <p>{detail}</p>)}
+                    {details.map(detail => <p key={detail   }>{detail}</p>)}
                 </div>
             </section>
         </div>
