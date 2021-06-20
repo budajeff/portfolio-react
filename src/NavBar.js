@@ -9,9 +9,8 @@ import './NavBar.css';
 import SkillsPage from "./SkillsPage";
 import HomePage from "./HomePage";
 import ExperiencePage from "./ExperiencePage";
-import ComponentTestPage from "./ComponentTestPage";
+import ComponentTestPage from "./AboutPage";
 import ContactPage from "./ContactPage";
-import { LightThemeStyle } from "./SharedStyles";
 
 export default function NavBar() {
     return (
@@ -32,7 +31,7 @@ export default function NavBar() {
                             <Link to="/contact">Contact</Link>
                         </li>
                         <li>
-                            <Link to="/component-test">Components</Link>
+                            <Link to="/about">Components</Link>
                         </li>
                     </ul>
                 </div>
@@ -47,7 +46,7 @@ export default function NavBar() {
                         <Route path="/contact">
                             <ContactPage />
                         </Route>
-                        <Route path="/component-test">
+                        <Route path="/about">
                             <ComponentTestPage />
                         </Route>
                         <Route path="/">
