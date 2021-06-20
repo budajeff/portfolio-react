@@ -1,0 +1,22 @@
+
+/* mobile first */
+.card-collection {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* tablet */
+@media screen and (min-width: 480px) {
+    .card-collection {        
+    }    
+  }
+
+/* large screen */
+@media screen and (min-width: 800px) {
+    .card-collection {
+
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  }
