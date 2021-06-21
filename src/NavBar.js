@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import {
     HashRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    useLocation
 } from "react-router-dom";
 import './NavBar.css';
 import SkillsPage from "./SkillsPage";
@@ -13,25 +14,45 @@ import ComponentTestPage from "./AboutPage";
 import ContactPage from "./ContactPage";
 
 export default function NavBar() {
+
+    const [currentPage, setCurrentPage] = useState("#/");
+    const handleLinkClick = (e) => { setCurrentPage(e.target.attributes['href'].value)};
+    const getLinkStyle = (href) => href === currentPage ? 'nav-menu-item nav-menu-item-selected' : 'nav-menu-item';
+    
     return (
         <Router>
             <div>
                 <div className='nav-parent'>
                     <ul className='nav-list'>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link 
+                                to="/" 
+                                onClick={handleLinkClick} 
+                                className={getLinkStyle('#/')}>Home</Link>
                         </li>
                         <li>
-                            <Link to="/skills">Skills</Link>
+                            <Link 
+                                to="/skills" 
+                                onClick={handleLinkClick} 
+                                className={getLinkStyle('#/skills')}>Skills</Link>
                         </li>
                         <li>
-                            <Link to="/experience">Experience</Link>
+                            <Link 
+                                to="/experience" 
+                                onClick={handleLinkClick} 
+                                className={getLinkStyle('#/experience')}>Experience</Link>
                         </li>
                         <li>
-                            <Link to="/contact">Contact</Link>
+                            <Link 
+                                to="/contact" 
+                                onClick={handleLinkClick} 
+                                className={getLinkStyle('#/contact')}>Contact</Link>
                         </li>
                         <li>
-                            <Link to="/about">About</Link>
+                            <Link 
+                                to="/about" 
+                                onClick={handleLinkClick}
+                                className={getLinkStyle('#/about')}>About</Link>
                         </li>
                     </ul>
                 </div>

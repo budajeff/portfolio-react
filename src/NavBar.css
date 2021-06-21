@@ -12,7 +12,6 @@ Router {
 }
 .nav-content {
     margin-top: 90px;
-    overflow-y: scroll;
     box-sizing: border-box;
 }
 
@@ -31,12 +30,30 @@ ul {
 .nav-list li{
     margin: 10px;
 }
-.nav-list li a{
+/* .nav-list li a{
     text-decoration: none;
     color: white
-}
+} */
 
-/* tablet/large screen */
 .nav-list {
     max-width: none;
+}
+
+.nav-menu-item {
+    text-decoration: none;
+    color: #98c1d9;    
+}
+
+.nav-menu-item-selected {
+    color: #e0fbfc;
+}
+
+/* tablet */
+@media screen and (min-width: 800px) {
+    .nav-menu-item {
+        font-size: 1.5em;    
+    }
+}
+
+@media screen and (min-width: 1000px) {
 }
