@@ -172,7 +172,7 @@ export default function getSiteData() {
         endDate: '1996-01-01',
         keywords: ['Pascal', 'BASIC'],
         details: [
-          'I do recall typing some BASIC programs into our VIC 20 but I really fell in love with programming when I taught myself Turbo Pascal from Tom Swan\'s Mastering Turbo PASCAL 5.5, a book that my dad bought me for Christmas.',
+          'I do recall typing some BASIC programs into our VIC 20 as a kid but I really fell in love with programming when I taught myself Turbo Pascal from Tom Swan\'s Mastering Turbo PASCAL 5.5, a book that my dad bought me for Christmas.',
           'I\'ve been hooked ever since.'
         ],
         image: 'pascal'
