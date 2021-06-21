@@ -8,8 +8,13 @@ import reactVsCode from './react-vs-code.png';
 import portrait from './portrait.jpg';
 import portraitTransparent from './portrait-transparent.png';
 import landing from './landing-page.png';
+import chegg from './chegg.jpeg'
 
 const Images = {
+    chegg: {
+        alt: 'Chegg office',
+        image: chegg
+    },
     landing: {
         alt: 'Portrait with striped background',
         image: landing

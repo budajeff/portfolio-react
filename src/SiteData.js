@@ -94,6 +94,7 @@ export default function getSiteData() {
         startDate: '2019-11-01',
         endDate: 'present',
         keywords: ['React', 'ExpessJS', 'NodeJS', 'Postgres', 'JavaScript'],
+        image: 'chegg',
         details: [
           'Mentor adult students who are learning the PERN stack (Postgres, Express, React, and Node)',
         ]
