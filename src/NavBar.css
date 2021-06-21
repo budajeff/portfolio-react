@@ -4,7 +4,7 @@ Router {
     font-family: 'Roboto';
 }
 .nav-parent{
-    line-height: 50px;
+    line-height: 15px;
     position: fixed;
     top: 0;
     height: 50px;

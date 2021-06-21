@@ -5,8 +5,13 @@ import csa from './csa.gif';
 import onvioPractice from './onvio-practice.png';
 import onvioDocuments from './onvio-documents.png';
 import reactVsCode from './react-vs-code.png';
+import portrait from './portrait.jpg';
 
 const Images = {
+    portrait: {
+        alt: 'Portrait of Jeff Buda',
+        image: portrait
+    },
     dbeaver: {
         alt: 'DBeaver app',
         image: dbeaver
