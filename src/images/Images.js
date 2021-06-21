@@ -6,11 +6,16 @@ import onvioPractice from './onvio-practice.png';
 import onvioDocuments from './onvio-documents.png';
 import reactVsCode from './react-vs-code.png';
 import portrait from './portrait.jpg';
+import portraitTransparent from './portrait-transparent.png';
 
 const Images = {
     portrait: {
         alt: 'Portrait of Jeff Buda',
         image: portrait
+    },
+    portraitTransparent: {
+        alt: 'Portrait of Jeff Buda',
+        image: portraitTransparent
     },
     dbeaver: {
         alt: 'DBeaver app',
