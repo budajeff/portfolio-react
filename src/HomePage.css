@@ -18,7 +18,14 @@
 
 /*tablet */
 @media screen and (min-width: 800px) {
-    .name {
-        
+    .portrait {
+        max-width: 800px;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 1000px) {
+    .portrait {
+        max-width: 850px;
     }
 }

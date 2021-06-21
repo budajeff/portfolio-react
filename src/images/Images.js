@@ -7,8 +7,13 @@ import onvioDocuments from './onvio-documents.png';
 import reactVsCode from './react-vs-code.png';
 import portrait from './portrait.jpg';
 import portraitTransparent from './portrait-transparent.png';
+import landing from './landing-page.png';
 
 const Images = {
+    landing: {
+        alt: 'Portrait with striped background',
+        image: landing
+    },
     portrait: {
         alt: 'Portrait of Jeff Buda',
         image: portrait
