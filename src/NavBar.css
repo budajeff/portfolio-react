@@ -26,6 +26,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #3d5a80;
+    padding-inline-start: 0px;
 }
 .nav-list li{
     margin: 10px;
