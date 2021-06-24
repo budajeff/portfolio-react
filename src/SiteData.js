@@ -124,7 +124,7 @@ export default function getSiteData() {
           'On this team I helped migrate the popular Practice CS Windows software to the web. We used Oracle as the database, ASP .Net Web API to serve our REST API.',
           'The front was written in TypeScript, leveraging both AngularJS and BootstrapJS.'
         ],
-        image: 'onvioPractice'
+        image: 'onvioPracticeDetailBilling'
       },
       {
         title: 'Senior Software Developer',
@@ -136,7 +136,8 @@ export default function getSiteData() {
         keywords: ['C#', '.Net Framework', 'COM', 'MS SQL Server', 'Windows Installer API'],
         details: [
           'Creative Solutions was an early adopter of the .Net Framework and chose to rewrite their practice management software in C#. This was my first experience with C# and it is still my favorite programming language.',
-        ]
+        ],
+        image: 'practiceCsDashboard'
       },
       {
         title: 'Software Developer',

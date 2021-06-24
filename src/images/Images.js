@@ -9,8 +9,28 @@ import portrait from './portrait.jpg';
 import portraitTransparent from './portrait-transparent.png';
 import landing from './landing-page.png';
 import chegg from './chegg.jpeg'
+import practiceCsDashboard from './practice-cs-dashboard.jpeg';
+import onvioDocumentsClientDocs from './onvio-documents-client-documents.png'; 
+import onvioPracticeBilling from './onvio-practice-billing.png';
+import onvioPracticeDetailBilling from './onvio-practice-detail-billing.png'
 
 const Images = {
+    onvioPracticeDetailBilling: {
+        alt: 'Onvio Practice Detail Billing screen',
+        image: onvioPracticeDetailBilling
+    },
+    onvioPracticeBilling: {
+        alt: 'Onvio Practice Billing screen',
+        image: onvioPracticeBilling
+    },
+    onvioDocumentsClientDocs: {
+        alt: 'Onvio Documents Client Documents screen',
+        image: onvioDocumentsClientDocs
+    },
+    practiceCsDashboard: {
+        alt: 'Practice CS dashboard screen',
+        image: practiceCsDashboard
+    },
     chegg: {
         alt: 'Chegg office',
         image: chegg
