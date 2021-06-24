@@ -1,17 +1,17 @@
+import { useContext } from 'react';
 import './ContactMethods.css';
-import SiteData from './SiteData';
 import ContactForm from './ContactForm';
-
+import { SiteDataContext } from './SiteDataContextProvider';
 
 export default function ContactMethods() {
 
-    const siteData = SiteData();
-    const emailHref = 'mailto:' + siteData.contactInfo.email;
-
+    const siteData = useContext(SiteDataContext);
+    
     return (
+        !siteData ? <p>Loading...</p> :
         <ul className='contact-methods-list'>
             <li>
-                Email me at <a target="_blank" rel="noreferrer" href={emailHref}>{siteData.contactInfo.email}</a>
+                Email me at <a target="_blank" rel="noreferrer" href={'mailto:' + siteData.contactInfo.email}>{siteData.contactInfo.email}</a>
             </li>
             <li>
                 LinkedIn Messaging also <a target="_blank" rel="noreferrer" href={siteData.contactInfo.linkedInUri}>works.</a>

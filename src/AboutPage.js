@@ -1,19 +1,22 @@
+import { useContext } from "react";
 import "./AboutPage.css";
 import Card from "./Card";
 import Cards from './Cards';
-import SiteData from './SiteData';
+import { SiteDataContext } from "./SiteDataContextProvider";
 
 export default function ComponentTestPage() {
     
-    const aboutData = SiteData().about[0];
+    const siteData = useContext(SiteDataContext);
+    
     return (
+        !siteData ? <p>Loading...</p> :
         <section>
             <Cards>
                 <Card
-                    title={aboutData.name}
-                    subtitle={aboutData.subtitle}
-                    details={aboutData.details}
-                    imageKey={aboutData.image}
+                    title={siteData.about[0].name}
+                    subtitle={siteData.about[0].subtitle}
+                    details={siteData.about[0].details}
+                    imageKey={siteData.about[0].image}
                 >
                 </Card>
             </Cards>

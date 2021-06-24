@@ -1,15 +1,18 @@
 import './App.css';
 import NavBar from './NavBar';
 import ErrorBoundary from './ErrorBoundary';
+import { SiteDataContextProvider } from './SiteDataContextProvider';
 
 function App() {
 
   return (
-    <div className="App" >
-      <ErrorBoundary>
-        <NavBar></NavBar>
-      </ErrorBoundary>
-    </div >
+    <SiteDataContextProvider>
+      <div className="App" >
+        <ErrorBoundary>
+          <NavBar></NavBar>
+        </ErrorBoundary>
+      </div >
+    </SiteDataContextProvider>
   );
 }
 
