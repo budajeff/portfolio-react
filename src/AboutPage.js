@@ -4,6 +4,7 @@ import Cards from './Cards';
 import SiteData from './SiteData';
 
 export default function ComponentTestPage() {
+    
     const aboutData = SiteData().about[0];
     return (
         <section>

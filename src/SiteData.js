@@ -1,5 +1,7 @@
-export default function getSiteData() {
-  return {
+export default async function getSiteData() {
+
+  // backup copy of the site data in case the server is struggling
+  const backupSiteData = {
 
     skillAreas: [
       {
@@ -192,7 +194,31 @@ export default function getSiteData() {
           'It also demonstrates that I\'m not a UX designer, but I do enjoy working with those talented people :-).',
           '<div>The source code for this site is available at <a href="https://github.com/budajeff/portfolio-react" target="_blank" rel="noreferrer">GitHub</a>.</div>'],
         image: 'reactVsCode'
-        }
+      }
     ]
   };
+
+  // HTTP GET the site content to demonstrate that we can retrieve data from REST APIs
+  try {
+    const response = await fetch(
+    'http://portfolio.eba-4tx4pvpd.us-east-2.elasticbeanstalk.com/site-data',
+    // 'http://localhost:5000/site-data',  
+    {
+        method: 'GET',
+        cache: 'no-cache',
+        headers: {
+          'Accept' : 'application/json',
+          'Content-Type': 'application/json'
+        }
+      });
+    if (!response.ok) {
+      return backupSiteData;
+    }
+    const json = await response.json();
+    return JSON.parse(json);
+
+  } catch (e) {
+    return backupSiteData;
+  }
+
 }
